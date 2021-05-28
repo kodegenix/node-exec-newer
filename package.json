@@ -2,7 +2,7 @@
   "name": "@kodegenix/rerun",
   "version": "0.1.1",
   "author": "Jakub Chłapiński <jakub.chlapinski@kodegenix.pl>",
-  "description": "Development tool for re-running commands only if files change",
+  "description": "Development tool for re-running commands only if given files are changed",
   "keywords": [
     "rerun",
     "run",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kodegenix/node-rerun.git"
+    "url": "https://github.com/kodegenix/node-rerun.git"
   },
   "homepage": "https://github.com/kodegenix/node-rerun#readme",
   "bugs": {
