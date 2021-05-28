@@ -1,6 +1,6 @@
 {
   "name": "@kodegenix/rerun",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jakub Chłapiński <jakub.chlapinski@kodegenix.pl>",
   "description": "Development tool for re-running commands only if files change",
   "keywords": [
