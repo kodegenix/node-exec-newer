@@ -9,7 +9,7 @@ async function run(cmd, args) {
     const options = {}
     options.windowHide = true
     options.stdio = 'inherit'
-    options.shell = process.env.SHELL || undefined
+    options.shell = true
     return new Promise((resolve, reject) => {
         const proc = spawn(cmd, args, options)
         proc.on('error', err => reject(err))
