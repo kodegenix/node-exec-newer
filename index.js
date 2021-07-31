@@ -92,6 +92,7 @@ async function rerun() {
                 await fs.promises.utimes(src, now, now)
                 console.log(`rerun: command failed with exit code ${code}, touched folder '${path.relative(process.cwd(), src)}'`)
             }
+            process.exit(code)
         }
     }
 }
